@@ -11,7 +11,7 @@
 
     <ul id="tasks" *ngFor="let task of selectedUserTasks">
         <li>
-            <app-task [task]="task" (complete)="onCompleteTask($event)"></app-task>
+            <app-task [task]="task"></app-task>
         </li>
     </ul>
 </section>
